@@ -9,6 +9,9 @@ function App() {
   return (
     <>
       Hello World
+      the count is {count}
+      <button onClick={() => setCount(count + 1)}>Increment</button>
+      
     </>
   )
 }
